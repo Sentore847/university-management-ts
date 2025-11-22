@@ -1,0 +1,27 @@
+{
+  "name": "university-management-system",
+  "version": "1.0.0",
+  "description": "Система управління навчальним процесом університету з TypeScript Enum",
+  "main": "dist/university-management.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/university-management.js",
+    "dev": "tsx src/university-management.ts",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "enum",
+    "university",
+    "management"
+  ],
+  "author": "Dmytro Grigorchuk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.3"
+  }
+}
